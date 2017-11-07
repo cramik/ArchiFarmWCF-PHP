@@ -1,6 +1,6 @@
 Simple PHP script for remotely sending commands to PHP. Would suggest adding some password protection if your web server is public.
 
-Usage: www.example.com/ASF.php?cmd="statusall"
+Usage: www.example.com/ASF.php?cmd="status ASF"
 
 
 IMPORTANT:
