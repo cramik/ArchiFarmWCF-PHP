@@ -1,11 +1,9 @@
+<?php include("C:\\xampp\\htdocs\\password_protect.php"); ?>
 <?php
 if (isset($_GET['cmd'])) {
 	$cmd = $_GET['cmd'];
-	$ToFront = exec("C:\Users\Cramik\Desktop\ASF\ToFront.exe"); /* Change path to path of ToFront.exe */
-	$output = exec("C:\Users\Cramik\Desktop\ASF\ASF.exe --client" . " " . $cmd); /*Change path to path of your ASF server */
-	$img = imagegrabscreen();
-	imagepng($img, 'screenshot.png');
-	echo '<img src="screenshot.png" border=0>'; 
+	$output = exec("C:\Users\Cramik\Desktop\ASF\ASF.exe --client" . " " . $cmd);
+	print_r($output);
 }else{
     echo "No Command Given";
 }
