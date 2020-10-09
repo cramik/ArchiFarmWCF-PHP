@@ -5,3 +5,6 @@ Usage: www.example.com/ASF.php?cmd="status ASF"
 
 IMPORTANT:
 You have to edit the paths in the file for it to work.
+
+
+INSECURE AND OUTDATED
