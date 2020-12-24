@@ -7,4 +7,4 @@ IMPORTANT:
 You have to edit the paths in the file for it to work.
 
 
-INSECURE AND OUTDATED
+INSECURE AND OUTDATED, ACTUAL GARBAGE, AND SECURITY RISK
